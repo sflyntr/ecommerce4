@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{#  billing_profile이 None이면, login_form을 parameter로 form.html을 호출한다.거기서 form을 연다. next값도 채운다.#}
+{#  billing_profile이 not None이면, checkout 내용 바로 보여준다.#}
+
+  {{ object.order_id }} -- {{  object.cart }}
+
+  {% if not billing_profile %}
+    <div class="row text-center">
+      <div class="col-12 col-md-6">
+           <p class="lead">Login</p>
+            {% include 'accounts/snippets/form.html' with form=login_form next_url=request.build_absolute_uri %}
+      </div>
+      <div class="col-12 col-md-6">
+        Continue as Guest
+
+        {% url "guest_register" as guest_register_url %}
+        <h6 style="color:lightgray; font-size: 12px">{{  request.build_absolute_uri  }}</h6>
+{#        http://localhost:8000/cart/checkout/#}
+        {% include 'accounts/snippets/form.html' with form=guest_form next_url=request.build_absolute_uri action_url=guest_register_url %}
+      </div>
+    </div>
+
+  {%  else  %}
+    <h1>Checkout</h1>
+
+    <p>Cart total: {{ object.cart.total }}</p>
+    <p>Shipping total: {{ object.shipping_total }}</p>
+    <p>Order total: {{ object.total }}</p>
+  {% endif %}
+
+{% endblock %}

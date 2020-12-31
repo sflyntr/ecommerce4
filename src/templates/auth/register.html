@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home Page</title>
+    {% include 'base/css.html' %}
+    {% include 'base/js.html' %}
+  </head>
+  <body>
+    <div class="text-center">
+      <h1>{{ title }}</h1>
+      <h3>{{ content }}</h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form method="POST">{% csrf_token %}
+            {{ form }}
+            <input type="submit" class="btn btn-default " value="Save"/>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{#action 을 그냥 login으로 보내는 것이 아니고, action_url이 있는 경우 글로 보내고 아니면 그냥 login_url로 보내는 것이다.#}
+{#즉 action_url에 guest_register_url을 보내면 login에서 guest_login 또는 일반 login을 분기처리한다.#}
+{#<form method='POST' action="{%  url 'login' %}">{% csrf_token %}#}
+
+<form method='POST' action="{% if action_url %}{{ action_url }}{% else %}{% url "login" %}{% endif %}">{% csrf_token %}
+    {% if next_url %}
+{#        next_url 값이 있으면 next에 next_url값을 채워서 posting한다.#}
+  {{ next_url }}
+    <input type="hidden" name="next" value="{{ next_url }}" />
+    {% endif %}
+  {{ form }}
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <h3 align="center">Container-Fluid</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            Sin Chao. container-fluid. This is a primary
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 align="center">Container Fluid-Cols</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            Sin Chao. primary
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            Sin Chao. primary
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <h3 align="center">Container</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            Sin Chao. container. This is a primary
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 align="center">Container-Cols</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            One Row, One Col
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            One Row 2 Col
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            Sin Chao. primary
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 align="center">cols training</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary1
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary2
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary3
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary4
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary5
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary6
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary7
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary8
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary9
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary10
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary11
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert">
+            primary12
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <hr>
+
+    <h5 align="center">col-숫자는 사이즈이다. 없으면 최적으로 만들어 준다.</h5>
+    <h6 align="center">12사이즈가 전체길이이다. 최적으로는 한 라인이 8이다. 따라서 1.5 정도 6이면 딱 반이다.</h6>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6">
+          <div class="alert alert-secondary" role="alert">
+            Size 6
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="alert alert-secondary" role="alert">
+            Size 2
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="alert alert-secondary" role="alert">
+            Size 2
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="alert alert-secondary" role="alert">
+            Size 2
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="alert alert-secondary" role="alert">
+            Size 2
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6 align="center">12사이즈가 전체길이이다. 1로 12개를 넣으면?.</h6>
+    <h6 align="center">즉, 사이즈를 넣으면 그 사이즈로 맞춘다. 따라서 라인이 넘어가면 그 다음 라인으로 보여준다.</h6>
+    <h6 align="center">그리고 이 사이즈는 브라우저 사이즈에 따라 변하는 상대적 사이즈이다.</h6>
+    <h6 align="center">최소 사이즈는 1이다..</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+
+    <h6 align="center">12가 매직넘버라는 것은 다 알것이다.</h6>
+    <h6 align="center">col-숫자생략 또한 매직사이즈이다.</h6>
+    <h6 align="center">즉, bootstrap이 가장 적절하게 사이즈를 자동으로 결정해준다.</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col"><div class="alert alert-secondary" role="alert"> Size 매직 </div></div>
+        <div class="col-8"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+
+    <hr>
+    <hr>
+
+    <h6 align="center">NavBar를 만들고 그 아래 왼쪽에 사이드바, 나머지는 몸체를 만들어보자.</h6>
+    <h6 align="center">col-2, col 이렇게 해도 되고 col-10을 줘도 된다. 매직넘버가 12이므로.</h6>
+    <h6 align="center">그리고 body의 컬럼최소높이를 800px로 주자 그래야 몸통처럼 보인다..</h6>
+    <h6 align="center">col에 min-height를 주면 컬럼이므로 사이드바 컬럼도 같이 길어진다.엑셀처럼. 따라서 Body 텍스트의 style에만 주자.</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-secondary" role="alert">
+            NavBar
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <div class="alert alert-primary" role="alert">
+            SideBar
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Body
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6 align="center">한단계 더 나가서 오른쪽 사이드바도 준다 그럼 가운데는 알아서 되도록 오른쪽에도 2로 설정.</h6>
+    <h6 align="center">그리고 min-height도 사이드바에 똑같이 준다.</h6>
+    <h6 align="center">또한 보면 간격들이 보일것이다. 이 간격은 알아서 bootstrap이 넣어준 padding이다. 따로 col이 있는게 아니고 각 col의 padding속성이다.</h6>
+    <h6 align="center">12개짜리 footer도 넣어보고 사이드바랑 몸통사이 padding도 없애보자. 이건 no-gutter이다.</h6>
+    <h6 align="center">no-gutter 옵션을 row에 주게 되면 그 row에 있는 각 col의 padding이 없어진다..즉 간격없이 딱 붙어서 나온다.</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-secondary" role="alert">
+            NavBar
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-2">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            SideBar
+          </div>
+        </div>
+        <div class="col">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Body
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="alert alert-secondary" role="alert" style="min-height: 800px">
+            SideBar
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+
+
+    <hr>
+
+
+    <h6 align="center">만약에 한 row가 12가 안되고 각 col은 사이즈가 지정되어 있다면? 비어서 보인다</h6>
+    <h6 align="center">기본적으로는 오른쪽이 비어서 보인다. 따라서 오른쪽 col에 마진이 붙는것이다. 이것을 조절하는 것이 마진설정이다.</h6>
+    <h6 align="center">ml-, mr- mx-auto 등이다.</h6>
+    <h6 align="center">하나의 row에 margin col 설정이 붙은 col에 해당 margin이 붙는다.</h6>
+    <h6 align="center">이것을 이용해서 navbar 아래 오른쪽에 사이즈4로 해서 search form을 만든다.</h6>
+    <h6 align="center">그리고 추후에 관리적인 부분이 있으니 한 row에 col들의 순서를 줘서 순서대로 보이게 한다.</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-secondary" role="alert">
+            NavBar
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 ml-auto">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 order-12">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Right SideBar
+          </div>
+        </div>
+        <div class="col-8 order-6">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Body
+          </div>
+        </div>
+        <div class="col-2 order-1">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Left SideBar
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+
+    <h6 align="center">마진을 했으면 이제 중요한 breakpoint이다.</h6>
+    <h6 align="center">break point는 margin 즉 ml-bp-auto 처럼 사용할 수 있고, 또한 col-bp-2 이런식으로 column에도 사용할 수 있다.</h6>
+    <h6 align="center">기본적으로 bootstrap은 모바일 기준으로 되어 있다. 즉 가장 작은 사이즈가 bp로 설정되어 있다.</h6>
+    <h6 align="center">즉 col-12 라면 col-가장작은사이즈-12 라는 것이고 더이상 설정이 없으므로 크던 작던 12사이즈가 되는 것이다.</h6>
+    <h6 align="center">col-12 col-sm-10 col-md-6 col-lg-4 이렇다면 가장 작을때는 12, 작은사이즈일때는 10, 중간에는 6, 큰사이즈일대는 4라는 것이다</h6>
+    <h6 align="center">이것으로 search 와 sidebar의 배열을 위아래로 움직여보자. 알기 쉽게 bottom content top content로 바꾸어서 해보자.</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-secondary" role="alert">
+            NavBar
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 ml-auto">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-auto mr-auto col-lg-2 order-12">
+          <div class="alert alert-primary" role="alert">
+            bottom content
+          </div>
+        </div>
+        <div class="col-11 col-lg-8 ml-auto mr-auto order-6">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Body
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 order-1">
+          <div class="alert alert-primary" role="alert">
+            top content
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+
+
+    <h6 align="center">마지막으로 padding을 다뤄보자.</h6>
+    <h6 align="center">Search 부분이 이쁘지 않다.Search위에는 좀 비어있고 밑에는 딱 붙었다.</h6>
+    <h6 align="center">이것은 Search위에는 NavBar의 alert class padding때문이고 아래는 그게 없다 즉 바로 container이다..</h6>
+    <h6 align="center">그리고 search form자체는 padding이 없다. 그래서 이상해보인다.</h6>
+    <h6 align="center">따라서 search class 에 margin을 준다. 아래쪽 margin이니 mb-3 을 준다. class에 bg-light를 줘서 마진을 눈으로 확인해보 좋다.</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-secondary" role="alert">
+            NavBar
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3 bg-light">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 ml-auto bg-light">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-auto mr-auto col-lg-2 order-12">
+          <div class="alert alert-primary" role="alert">
+            bottom content
+          </div>
+        </div>
+        <div class="col-11 col-lg-8 ml-auto mr-auto order-6">
+          <div class="alert alert-primary" role="alert" style="min-height: 800px">
+            Body
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 order-1">
+          <div class="alert alert-primary" role="alert">
+            top content
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+        <div class="col-1"><div class="alert alert-secondary" role="alert"> Size 1 </div></div>
+      </div>
+    </div>
+
+
+    <h6 align="center">Navbar를 만든다.</h6>
+    <h6 align="center">기존 Search를 없애면 navbar와 그 아래 div가 딱 붙으니 Navbar에 mb-3을 넣는다.</h6>
+    <h6 align="center">나머지는 bootstrap docs를 보고 하면 된다. id를 설정하고 그 아이디를 #id로 해서 사용해야 하므로 Javascript가 꼭 필요하다.</h6>
+    <h6 align="center">Button을 눌렀는데 navbar의 item들이 안보이면 제일 아래 javascript src를 넣지 않아서 그런것이다.</h6>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg  " width="30" height="30" class="d-inline-block align-top" alt="">
+          Bootstrap
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target='#navbarCollapseLinks' aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id='navbarCollapseLinks'>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" style="min-height: 800px">
+          <h1>End of Doc</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
